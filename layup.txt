@@ -1,0 +1,421 @@
+[1] "k= 1 type= Layup"
+
+Call:
+glm(formula = as.factor(shot_made_flag1) ~ ., family = "binomial", 
+    data = traindata[-cvtrain[[i]], ])
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-8.4904  -0.9720   0.5256   0.9608   2.0520  
+
+Coefficients: (48 not defined because of singularities)
+                                                Estimate
+(Intercept)                                   -2.015e+14
+action_typeAlley.Oop.Layup.shot                2.015e+14
+action_typeCutting.Finger.Roll.Layup.Shot             NA
+action_typeCutting.Layup.Shot                  2.015e+14
+action_typeDriving.Bank.shot                          NA
+action_typeDriving.Dunk.Shot                          NA
+action_typeDriving.Finger.Roll.Layup.Shot      2.015e+14
+action_typeDriving.Finger.Roll.Shot            2.015e+14
+action_typeDriving.Floating.Bank.Jump.Shot            NA
+action_typeDriving.Floating.Jump.Shot                 NA
+action_typeDriving.Hook.Shot                          NA
+action_typeDriving.Jump.shot                          NA
+action_typeDriving.Layup.Shot                  2.015e+14
+action_typeDriving.Reverse.Layup.Shot          2.015e+14
+action_typeDriving.Slam.Dunk.Shot                     NA
+action_typeDunk.Shot                                  NA
+action_typeFadeaway.Bank.shot                         NA
+action_typeFadeaway.Jump.Shot                         NA
+action_typeFinger.Roll.Layup.Shot              2.015e+14
+action_typeFinger.Roll.Shot                    2.015e+14
+action_typeFloating.Jump.shot                         NA
+action_typeFollow.Up.Dunk.Shot                        NA
+action_typeHook.Bank.Shot                             NA
+action_typeHook.Shot                                  NA
+action_typeJump.Bank.Shot                             NA
+action_typeJump.Hook.Shot                             NA
+action_typeJump.Shot                                  NA
+action_typeLayup.Shot                          2.015e+14
+action_typePullup.Bank.shot                           NA
+action_typePullup.Jump.shot                           NA
+action_typePutback.Dunk.Shot                          NA
+action_typePutback.Layup.Shot                  2.015e+14
+action_typePutback.Slam.Dunk.Shot                     NA
+action_typeReverse.Dunk.Shot                          NA
+action_typeReverse.Layup.Shot                  2.015e+14
+action_typeReverse.Slam.Dunk.Shot                     NA
+action_typeRunning.Bank.shot                          NA
+action_typeRunning.Dunk.Shot                          NA
+action_typeRunning.Finger.Roll.Layup.Shot             NA
+action_typeRunning.Finger.Roll.Shot            2.015e+14
+action_typeRunning.Hook.Shot                          NA
+action_typeRunning.Jump.Shot                          NA
+action_typeRunning.Layup.Shot                  2.015e+14
+action_typeRunning.Pull.Up.Jump.Shot                  NA
+action_typeRunning.Reverse.Layup.Shot                 NA
+action_typeRunning.Slam.Dunk.Shot                     NA
+action_typeRunning.Tip.Shot                           NA
+action_typeSlam.Dunk.Shot                             NA
+action_typeStep.Back.Jump.shot                        NA
+action_typeTip.Layup.Shot                      2.015e+14
+action_typeTip.Shot                                   NA
+action_typeTurnaround.Bank.shot                       NA
+action_typeTurnaround.Fadeaway.Bank.Jump.Shot         NA
+action_typeTurnaround.Fadeaway.shot                   NA
+action_typeTurnaround.Finger.Roll.Shot                NA
+action_typeTurnaround.Hook.Shot                       NA
+action_typeTurnaround.Jump.Shot                       NA
+combined_shot_typeDunk                                NA
+combined_shot_typeHook.Shot                           NA
+combined_shot_typeJump.Shot                           NA
+combined_shot_typeLayup                               NA
+combined_shot_typeTip.Shot                            NA
+loc_x                                          1.317e-02
+loc_y                                         -3.569e-02
+playoffs1                                     -2.299e-01
+shot_type3PT.Field.Goal                               NA
+opponentBKN                                    4.630e+01
+opponentBOS                                   -4.169e-01
+opponentCHA                                    2.523e+01
+opponentCHI                                    8.184e-02
+opponentCLE                                   -5.782e-01
+opponentDAL                                   -1.133e-01
+opponentDEN                                   -3.138e-02
+opponentDET                                    6.000e-02
+opponentGSW                                    6.931e-01
+opponentHOU                                   -2.823e-01
+opponentIND                                   -1.676e-01
+opponentLAC                                   -6.978e-01
+opponentMEM                                   -1.027e+00
+opponentMIA                                   -7.897e-02
+opponentMIL                                    1.135e+00
+opponentMIN                                    3.489e-01
+opponentNJN                                   -1.438e+00
+opponentNOH                                   -2.513e-02
+opponentNOP                                    1.525e-01
+opponentNYK                                   -4.671e-01
+opponentOKC                                    4.189e-01
+opponentORL                                   -2.613e-01
+opponentPHI                                   -3.997e-01
+opponentPHX                                   -4.975e-01
+opponentPOR                                   -3.507e-01
+opponentSAC                                   -9.040e-01
+opponentSAS                                    3.441e-02
+opponentSEA                                   -2.240e-01
+opponentTOR                                   -4.963e-01
+opponentUTA                                    5.776e-01
+opponentVAN                                   -2.793e-01
+opponentWAS                                   -4.152e-01
+time_remaining                                 6.542e-04
+                                              Std. Error
+(Intercept)                                    1.487e+14
+action_typeAlley.Oop.Layup.shot                1.487e+14
+action_typeCutting.Finger.Roll.Layup.Shot             NA
+action_typeCutting.Layup.Shot                  1.487e+14
+action_typeDriving.Bank.shot                          NA
+action_typeDriving.Dunk.Shot                          NA
+action_typeDriving.Finger.Roll.Layup.Shot      1.487e+14
+action_typeDriving.Finger.Roll.Shot            1.487e+14
+action_typeDriving.Floating.Bank.Jump.Shot            NA
+action_typeDriving.Floating.Jump.Shot                 NA
+action_typeDriving.Hook.Shot                          NA
+action_typeDriving.Jump.shot                          NA
+action_typeDriving.Layup.Shot                  1.487e+14
+action_typeDriving.Reverse.Layup.Shot          1.487e+14
+action_typeDriving.Slam.Dunk.Shot                     NA
+action_typeDunk.Shot                                  NA
+action_typeFadeaway.Bank.shot                         NA
+action_typeFadeaway.Jump.Shot                         NA
+action_typeFinger.Roll.Layup.Shot              1.487e+14
+action_typeFinger.Roll.Shot                    1.487e+14
+action_typeFloating.Jump.shot                         NA
+action_typeFollow.Up.Dunk.Shot                        NA
+action_typeHook.Bank.Shot                             NA
+action_typeHook.Shot                                  NA
+action_typeJump.Bank.Shot                             NA
+action_typeJump.Hook.Shot                             NA
+action_typeJump.Shot                                  NA
+action_typeLayup.Shot                          1.487e+14
+action_typePullup.Bank.shot                           NA
+action_typePullup.Jump.shot                           NA
+action_typePutback.Dunk.Shot                          NA
+action_typePutback.Layup.Shot                  1.487e+14
+action_typePutback.Slam.Dunk.Shot                     NA
+action_typeReverse.Dunk.Shot                          NA
+action_typeReverse.Layup.Shot                  1.487e+14
+action_typeReverse.Slam.Dunk.Shot                     NA
+action_typeRunning.Bank.shot                          NA
+action_typeRunning.Dunk.Shot                          NA
+action_typeRunning.Finger.Roll.Layup.Shot             NA
+action_typeRunning.Finger.Roll.Shot            1.487e+14
+action_typeRunning.Hook.Shot                          NA
+action_typeRunning.Jump.Shot                          NA
+action_typeRunning.Layup.Shot                  1.487e+14
+action_typeRunning.Pull.Up.Jump.Shot                  NA
+action_typeRunning.Reverse.Layup.Shot                 NA
+action_typeRunning.Slam.Dunk.Shot                     NA
+action_typeRunning.Tip.Shot                           NA
+action_typeSlam.Dunk.Shot                             NA
+action_typeStep.Back.Jump.shot                        NA
+action_typeTip.Layup.Shot                      1.487e+14
+action_typeTip.Shot                                   NA
+action_typeTurnaround.Bank.shot                       NA
+action_typeTurnaround.Fadeaway.Bank.Jump.Shot         NA
+action_typeTurnaround.Fadeaway.shot                   NA
+action_typeTurnaround.Finger.Roll.Shot                NA
+action_typeTurnaround.Hook.Shot                       NA
+action_typeTurnaround.Jump.Shot                       NA
+combined_shot_typeDunk                                NA
+combined_shot_typeHook.Shot                           NA
+combined_shot_typeJump.Shot                           NA
+combined_shot_typeLayup                               NA
+combined_shot_typeTip.Shot                            NA
+loc_x                                          1.030e-02
+loc_y                                          1.150e-02
+playoffs1                                      2.637e-01
+shot_type3PT.Field.Goal                               NA
+opponentBKN                                    6.711e+07
+opponentBOS                                    8.602e-01
+opponentCHA                                    7.265e+04
+opponentCHI                                    8.550e-01
+opponentCLE                                    9.003e-01
+opponentDAL                                    7.422e-01
+opponentDEN                                    7.535e-01
+opponentDET                                    8.544e-01
+opponentGSW                                    7.823e-01
+opponentHOU                                    7.774e-01
+opponentIND                                    8.666e-01
+opponentLAC                                    7.638e-01
+opponentMEM                                    7.944e-01
+opponentMIA                                    9.176e-01
+opponentMIL                                    1.068e+00
+opponentMIN                                    8.092e-01
+opponentNJN                                    9.084e-01
+opponentNOH                                    9.338e-01
+opponentNOP                                    1.071e+00
+opponentNYK                                    8.681e-01
+opponentOKC                                    9.955e-01
+opponentORL                                    8.595e-01
+opponentPHI                                    8.310e-01
+opponentPHX                                    7.421e-01
+opponentPOR                                    7.607e-01
+opponentSAC                                    7.516e-01
+opponentSAS                                    7.396e-01
+opponentSEA                                    8.231e-01
+opponentTOR                                    8.413e-01
+opponentUTA                                    7.895e-01
+opponentVAN                                    1.117e+00
+opponentWAS                                    8.880e-01
+time_remaining                                 4.362e-04
+                                              z value Pr(>|z|)
+(Intercept)                                    -1.355  0.17547
+action_typeAlley.Oop.Layup.shot                 1.355  0.17547
+action_typeCutting.Finger.Roll.Layup.Shot          NA       NA
+action_typeCutting.Layup.Shot                   1.355  0.17547
+action_typeDriving.Bank.shot                       NA       NA
+action_typeDriving.Dunk.Shot                       NA       NA
+action_typeDriving.Finger.Roll.Layup.Shot       1.355  0.17547
+action_typeDriving.Finger.Roll.Shot             1.355  0.17547
+action_typeDriving.Floating.Bank.Jump.Shot         NA       NA
+action_typeDriving.Floating.Jump.Shot              NA       NA
+action_typeDriving.Hook.Shot                       NA       NA
+action_typeDriving.Jump.shot                       NA       NA
+action_typeDriving.Layup.Shot                   1.355  0.17547
+action_typeDriving.Reverse.Layup.Shot           1.355  0.17547
+action_typeDriving.Slam.Dunk.Shot                  NA       NA
+action_typeDunk.Shot                               NA       NA
+action_typeFadeaway.Bank.shot                      NA       NA
+action_typeFadeaway.Jump.Shot                      NA       NA
+action_typeFinger.Roll.Layup.Shot               1.355  0.17547
+action_typeFinger.Roll.Shot                     1.355  0.17547
+action_typeFloating.Jump.shot                      NA       NA
+action_typeFollow.Up.Dunk.Shot                     NA       NA
+action_typeHook.Bank.Shot                          NA       NA
+action_typeHook.Shot                               NA       NA
+action_typeJump.Bank.Shot                          NA       NA
+action_typeJump.Hook.Shot                          NA       NA
+action_typeJump.Shot                               NA       NA
+action_typeLayup.Shot                           1.355  0.17547
+action_typePullup.Bank.shot                        NA       NA
+action_typePullup.Jump.shot                        NA       NA
+action_typePutback.Dunk.Shot                       NA       NA
+action_typePutback.Layup.Shot                   1.355  0.17547
+action_typePutback.Slam.Dunk.Shot                  NA       NA
+action_typeReverse.Dunk.Shot                       NA       NA
+action_typeReverse.Layup.Shot                   1.355  0.17547
+action_typeReverse.Slam.Dunk.Shot                  NA       NA
+action_typeRunning.Bank.shot                       NA       NA
+action_typeRunning.Dunk.Shot                       NA       NA
+action_typeRunning.Finger.Roll.Layup.Shot          NA       NA
+action_typeRunning.Finger.Roll.Shot             1.355  0.17547
+action_typeRunning.Hook.Shot                       NA       NA
+action_typeRunning.Jump.Shot                       NA       NA
+action_typeRunning.Layup.Shot                   1.355  0.17547
+action_typeRunning.Pull.Up.Jump.Shot               NA       NA
+action_typeRunning.Reverse.Layup.Shot              NA       NA
+action_typeRunning.Slam.Dunk.Shot                  NA       NA
+action_typeRunning.Tip.Shot                        NA       NA
+action_typeSlam.Dunk.Shot                          NA       NA
+action_typeStep.Back.Jump.shot                     NA       NA
+action_typeTip.Layup.Shot                       1.355  0.17547
+action_typeTip.Shot                                NA       NA
+action_typeTurnaround.Bank.shot                    NA       NA
+action_typeTurnaround.Fadeaway.Bank.Jump.Shot      NA       NA
+action_typeTurnaround.Fadeaway.shot                NA       NA
+action_typeTurnaround.Finger.Roll.Shot             NA       NA
+action_typeTurnaround.Hook.Shot                    NA       NA
+action_typeTurnaround.Jump.Shot                    NA       NA
+combined_shot_typeDunk                             NA       NA
+combined_shot_typeHook.Shot                        NA       NA
+combined_shot_typeJump.Shot                        NA       NA
+combined_shot_typeLayup                            NA       NA
+combined_shot_typeTip.Shot                         NA       NA
+loc_x                                           1.279  0.20104
+loc_y                                          -3.104  0.00191
+playoffs1                                      -0.872  0.38337
+shot_type3PT.Field.Goal                            NA       NA
+opponentBKN                                     0.000  1.00000
+opponentBOS                                    -0.485  0.62794
+opponentCHA                                     0.000  0.99972
+opponentCHI                                     0.096  0.92375
+opponentCLE                                    -0.642  0.52075
+opponentDAL                                    -0.153  0.87870
+opponentDEN                                    -0.042  0.96678
+opponentDET                                     0.070  0.94401
+opponentGSW                                     0.886  0.37568
+opponentHOU                                    -0.363  0.71652
+opponentIND                                    -0.193  0.84666
+opponentLAC                                    -0.914  0.36092
+opponentMEM                                    -1.293  0.19613
+opponentMIA                                    -0.086  0.93141
+opponentMIL                                     1.063  0.28759
+opponentMIN                                     0.431  0.66633
+opponentNJN                                    -1.583  0.11337
+opponentNOH                                    -0.027  0.97853
+opponentNOP                                     0.142  0.88681
+opponentNYK                                    -0.538  0.59055
+opponentOKC                                     0.421  0.67391
+opponentORL                                    -0.304  0.76109
+opponentPHI                                    -0.481  0.63055
+opponentPHX                                    -0.670  0.50265
+opponentPOR                                    -0.461  0.64474
+opponentSAC                                    -1.203  0.22907
+opponentSAS                                     0.047  0.96289
+opponentSEA                                    -0.272  0.78553
+opponentTOR                                    -0.590  0.55520
+opponentUTA                                     0.732  0.46440
+opponentVAN                                    -0.250  0.80260
+opponentWAS                                    -0.467  0.64014
+time_remaining                                  1.500  0.13372
+                                                
+(Intercept)                                     
+action_typeAlley.Oop.Layup.shot                 
+action_typeCutting.Finger.Roll.Layup.Shot       
+action_typeCutting.Layup.Shot                   
+action_typeDriving.Bank.shot                    
+action_typeDriving.Dunk.Shot                    
+action_typeDriving.Finger.Roll.Layup.Shot       
+action_typeDriving.Finger.Roll.Shot             
+action_typeDriving.Floating.Bank.Jump.Shot      
+action_typeDriving.Floating.Jump.Shot           
+action_typeDriving.Hook.Shot                    
+action_typeDriving.Jump.shot                    
+action_typeDriving.Layup.Shot                   
+action_typeDriving.Reverse.Layup.Shot           
+action_typeDriving.Slam.Dunk.Shot               
+action_typeDunk.Shot                            
+action_typeFadeaway.Bank.shot                   
+action_typeFadeaway.Jump.Shot                   
+action_typeFinger.Roll.Layup.Shot               
+action_typeFinger.Roll.Shot                     
+action_typeFloating.Jump.shot                   
+action_typeFollow.Up.Dunk.Shot                  
+action_typeHook.Bank.Shot                       
+action_typeHook.Shot                            
+action_typeJump.Bank.Shot                       
+action_typeJump.Hook.Shot                       
+action_typeJump.Shot                            
+action_typeLayup.Shot                           
+action_typePullup.Bank.shot                     
+action_typePullup.Jump.shot                     
+action_typePutback.Dunk.Shot                    
+action_typePutback.Layup.Shot                   
+action_typePutback.Slam.Dunk.Shot               
+action_typeReverse.Dunk.Shot                    
+action_typeReverse.Layup.Shot                   
+action_typeReverse.Slam.Dunk.Shot               
+action_typeRunning.Bank.shot                    
+action_typeRunning.Dunk.Shot                    
+action_typeRunning.Finger.Roll.Layup.Shot       
+action_typeRunning.Finger.Roll.Shot             
+action_typeRunning.Hook.Shot                    
+action_typeRunning.Jump.Shot                    
+action_typeRunning.Layup.Shot                   
+action_typeRunning.Pull.Up.Jump.Shot            
+action_typeRunning.Reverse.Layup.Shot           
+action_typeRunning.Slam.Dunk.Shot               
+action_typeRunning.Tip.Shot                     
+action_typeSlam.Dunk.Shot                       
+action_typeStep.Back.Jump.shot                  
+action_typeTip.Layup.Shot                       
+action_typeTip.Shot                             
+action_typeTurnaround.Bank.shot                 
+action_typeTurnaround.Fadeaway.Bank.Jump.Shot   
+action_typeTurnaround.Fadeaway.shot             
+action_typeTurnaround.Finger.Roll.Shot          
+action_typeTurnaround.Hook.Shot                 
+action_typeTurnaround.Jump.Shot                 
+combined_shot_typeDunk                          
+combined_shot_typeHook.Shot                     
+combined_shot_typeJump.Shot                     
+combined_shot_typeLayup                         
+combined_shot_typeTip.Shot                      
+loc_x                                           
+loc_y                                         **
+playoffs1                                       
+shot_type3PT.Field.Goal                         
+opponentBKN                                     
+opponentBOS                                     
+opponentCHA                                     
+opponentCHI                                     
+opponentCLE                                     
+opponentDAL                                     
+opponentDEN                                     
+opponentDET                                     
+opponentGSW                                     
+opponentHOU                                     
+opponentIND                                     
+opponentLAC                                     
+opponentMEM                                     
+opponentMIA                                     
+opponentMIL                                     
+opponentMIN                                     
+opponentNJN                                     
+opponentNOH                                     
+opponentNOP                                     
+opponentNYK                                     
+opponentOKC                                     
+opponentORL                                     
+opponentPHI                                     
+opponentPHX                                     
+opponentPOR                                     
+opponentSAC                                     
+opponentSAS                                     
+opponentSEA                                     
+opponentTOR                                     
+opponentUTA                                     
+opponentVAN                                     
+opponentWAS                                     
+time_remaining                                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1001.5  on 724  degrees of freedom
+Residual deviance: 1080.8  on 674  degrees of freedom
+AIC: 1182.8
+
+Number of Fisher Scoring iterations: 25

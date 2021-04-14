@@ -1,0 +1,331 @@
+[1] "k= 1 type= Hook Shot"
+
+Call:
+glm(formula = as.factor(shot_made_flag1) ~ ., family = "binomial", 
+    data = traindata[-cvtrain[[i]], ])
+
+Deviance Residuals: 
+ [1]  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+[21]  0
+
+Coefficients: (82 not defined because of singularities)
+                                                Estimate
+(Intercept)                                    2.221e+02
+action_typeAlley.Oop.Layup.shot                       NA
+action_typeCutting.Finger.Roll.Layup.Shot             NA
+action_typeCutting.Layup.Shot                         NA
+action_typeDriving.Bank.shot                          NA
+action_typeDriving.Dunk.Shot                          NA
+action_typeDriving.Finger.Roll.Layup.Shot             NA
+action_typeDriving.Finger.Roll.Shot                   NA
+action_typeDriving.Floating.Bank.Jump.Shot            NA
+action_typeDriving.Floating.Jump.Shot                 NA
+action_typeDriving.Hook.Shot                   4.050e+02
+action_typeDriving.Jump.shot                          NA
+action_typeDriving.Layup.Shot                         NA
+action_typeDriving.Reverse.Layup.Shot                 NA
+action_typeDriving.Slam.Dunk.Shot                     NA
+action_typeDunk.Shot                                  NA
+action_typeFadeaway.Bank.shot                         NA
+action_typeFadeaway.Jump.Shot                         NA
+action_typeFinger.Roll.Layup.Shot                     NA
+action_typeFinger.Roll.Shot                           NA
+action_typeFloating.Jump.shot                         NA
+action_typeFollow.Up.Dunk.Shot                        NA
+action_typeHook.Bank.Shot                             NA
+action_typeHook.Shot                          -9.105e+01
+action_typeJump.Bank.Shot                             NA
+action_typeJump.Hook.Shot                             NA
+action_typeJump.Shot                                  NA
+action_typeLayup.Shot                                 NA
+action_typePullup.Bank.shot                           NA
+action_typePullup.Jump.shot                           NA
+action_typePutback.Dunk.Shot                          NA
+action_typePutback.Layup.Shot                         NA
+action_typePutback.Slam.Dunk.Shot                     NA
+action_typeReverse.Dunk.Shot                          NA
+action_typeReverse.Layup.Shot                         NA
+action_typeReverse.Slam.Dunk.Shot                     NA
+action_typeRunning.Bank.shot                          NA
+action_typeRunning.Dunk.Shot                          NA
+action_typeRunning.Finger.Roll.Layup.Shot             NA
+action_typeRunning.Finger.Roll.Shot                   NA
+action_typeRunning.Hook.Shot                          NA
+action_typeRunning.Jump.Shot                          NA
+action_typeRunning.Layup.Shot                         NA
+action_typeRunning.Pull.Up.Jump.Shot                  NA
+action_typeRunning.Reverse.Layup.Shot                 NA
+action_typeRunning.Slam.Dunk.Shot                     NA
+action_typeRunning.Tip.Shot                           NA
+action_typeSlam.Dunk.Shot                             NA
+action_typeStep.Back.Jump.shot                        NA
+action_typeTip.Layup.Shot                             NA
+action_typeTip.Shot                                   NA
+action_typeTurnaround.Bank.shot                       NA
+action_typeTurnaround.Fadeaway.Bank.Jump.Shot         NA
+action_typeTurnaround.Fadeaway.shot                   NA
+action_typeTurnaround.Finger.Roll.Shot                NA
+action_typeTurnaround.Hook.Shot                       NA
+action_typeTurnaround.Jump.Shot                       NA
+combined_shot_typeDunk                                NA
+combined_shot_typeHook.Shot                           NA
+combined_shot_typeJump.Shot                           NA
+combined_shot_typeLayup                               NA
+combined_shot_typeTip.Shot                            NA
+loc_x                                         -1.010e+00
+loc_y                                         -6.203e-01
+playoffs1                                     -5.962e+01
+shot_type3PT.Field.Goal                               NA
+opponentBKN                                           NA
+opponentBOS                                   -4.892e+02
+opponentCHA                                           NA
+opponentCHI                                           NA
+opponentCLE                                    1.767e+01
+opponentDAL                                           NA
+opponentDEN                                   -6.055e+01
+opponentDET                                    2.638e+02
+opponentGSW                                    3.198e+02
+opponentHOU                                    4.349e+02
+opponentIND                                           NA
+opponentLAC                                   -1.080e+02
+opponentMEM                                           NA
+opponentMIA                                           NA
+opponentMIL                                           NA
+opponentMIN                                           NA
+opponentNJN                                    4.110e+02
+opponentNOH                                    3.107e+02
+opponentNOP                                    3.132e+02
+opponentNYK                                           NA
+opponentOKC                                    1.978e+02
+opponentORL                                           NA
+opponentPHI                                    4.761e+02
+opponentPHX                                           NA
+opponentPOR                                    3.571e+02
+opponentSAC                                           NA
+opponentSAS                                           NA
+opponentSEA                                           NA
+opponentTOR                                           NA
+opponentUTA                                           NA
+opponentVAN                                           NA
+opponentWAS                                    2.351e+02
+time_remaining                                -9.192e-01
+shot_distance_cut..3.13.                              NA
+shot_distance_cut.13.18.                              NA
+shot_distance_cut.18.24.                              NA
+shot_distance_cut.24.79.                              NA
+                                              Std. Error
+(Intercept)                                    1.385e+06
+action_typeAlley.Oop.Layup.shot                       NA
+action_typeCutting.Finger.Roll.Layup.Shot             NA
+action_typeCutting.Layup.Shot                         NA
+action_typeDriving.Bank.shot                          NA
+action_typeDriving.Dunk.Shot                          NA
+action_typeDriving.Finger.Roll.Layup.Shot             NA
+action_typeDriving.Finger.Roll.Shot                   NA
+action_typeDriving.Floating.Bank.Jump.Shot            NA
+action_typeDriving.Floating.Jump.Shot                 NA
+action_typeDriving.Hook.Shot                   1.952e+06
+action_typeDriving.Jump.shot                          NA
+action_typeDriving.Layup.Shot                         NA
+action_typeDriving.Reverse.Layup.Shot                 NA
+action_typeDriving.Slam.Dunk.Shot                     NA
+action_typeDunk.Shot                                  NA
+action_typeFadeaway.Bank.shot                         NA
+action_typeFadeaway.Jump.Shot                         NA
+action_typeFinger.Roll.Layup.Shot                     NA
+action_typeFinger.Roll.Shot                           NA
+action_typeFloating.Jump.shot                         NA
+action_typeFollow.Up.Dunk.Shot                        NA
+action_typeHook.Bank.Shot                             NA
+action_typeHook.Shot                           7.690e+05
+action_typeJump.Bank.Shot                             NA
+action_typeJump.Hook.Shot                             NA
+action_typeJump.Shot                                  NA
+action_typeLayup.Shot                                 NA
+action_typePullup.Bank.shot                           NA
+action_typePullup.Jump.shot                           NA
+action_typePutback.Dunk.Shot                          NA
+action_typePutback.Layup.Shot                         NA
+action_typePutback.Slam.Dunk.Shot                     NA
+action_typeReverse.Dunk.Shot                          NA
+action_typeReverse.Layup.Shot                         NA
+action_typeReverse.Slam.Dunk.Shot                     NA
+action_typeRunning.Bank.shot                          NA
+action_typeRunning.Dunk.Shot                          NA
+action_typeRunning.Finger.Roll.Layup.Shot             NA
+action_typeRunning.Finger.Roll.Shot                   NA
+action_typeRunning.Hook.Shot                          NA
+action_typeRunning.Jump.Shot                          NA
+action_typeRunning.Layup.Shot                         NA
+action_typeRunning.Pull.Up.Jump.Shot                  NA
+action_typeRunning.Reverse.Layup.Shot                 NA
+action_typeRunning.Slam.Dunk.Shot                     NA
+action_typeRunning.Tip.Shot                           NA
+action_typeSlam.Dunk.Shot                             NA
+action_typeStep.Back.Jump.shot                        NA
+action_typeTip.Layup.Shot                             NA
+action_typeTip.Shot                                   NA
+action_typeTurnaround.Bank.shot                       NA
+action_typeTurnaround.Fadeaway.Bank.Jump.Shot         NA
+action_typeTurnaround.Fadeaway.shot                   NA
+action_typeTurnaround.Finger.Roll.Shot                NA
+action_typeTurnaround.Hook.Shot                       NA
+action_typeTurnaround.Jump.Shot                       NA
+combined_shot_typeDunk                                NA
+combined_shot_typeHook.Shot                           NA
+combined_shot_typeJump.Shot                           NA
+combined_shot_typeLayup                               NA
+combined_shot_typeTip.Shot                            NA
+loc_x                                          8.119e+03
+loc_y                                          7.534e+03
+playoffs1                                      4.376e+05
+shot_type3PT.Field.Goal                               NA
+opponentBKN                                           NA
+opponentBOS                                    2.486e+06
+opponentCHA                                           NA
+opponentCHI                                           NA
+opponentCLE                                    3.408e+05
+opponentDAL                                           NA
+opponentDEN                                    5.029e+05
+opponentDET                                    1.269e+06
+opponentGSW                                    1.474e+06
+opponentHOU                                    2.007e+06
+opponentIND                                           NA
+opponentLAC                                    8.979e+05
+opponentMEM                                           NA
+opponentMIA                                           NA
+opponentMIL                                           NA
+opponentMIN                                           NA
+opponentNJN                                    2.362e+06
+opponentNOH                                    1.578e+06
+opponentNOP                                    1.568e+06
+opponentNYK                                           NA
+opponentOKC                                    1.313e+06
+opponentORL                                           NA
+opponentPHI                                    2.595e+06
+opponentPHX                                           NA
+opponentPOR                                    1.833e+06
+opponentSAC                                           NA
+opponentSAS                                           NA
+opponentSEA                                           NA
+opponentTOR                                           NA
+opponentUTA                                           NA
+opponentVAN                                           NA
+opponentWAS                                    1.267e+06
+time_remaining                                 4.436e+03
+shot_distance_cut..3.13.                              NA
+shot_distance_cut.13.18.                              NA
+shot_distance_cut.18.24.                              NA
+shot_distance_cut.24.79.                              NA
+                                              z value Pr(>|z|)
+(Intercept)                                         0        1
+action_typeAlley.Oop.Layup.shot                    NA       NA
+action_typeCutting.Finger.Roll.Layup.Shot          NA       NA
+action_typeCutting.Layup.Shot                      NA       NA
+action_typeDriving.Bank.shot                       NA       NA
+action_typeDriving.Dunk.Shot                       NA       NA
+action_typeDriving.Finger.Roll.Layup.Shot          NA       NA
+action_typeDriving.Finger.Roll.Shot                NA       NA
+action_typeDriving.Floating.Bank.Jump.Shot         NA       NA
+action_typeDriving.Floating.Jump.Shot              NA       NA
+action_typeDriving.Hook.Shot                        0        1
+action_typeDriving.Jump.shot                       NA       NA
+action_typeDriving.Layup.Shot                      NA       NA
+action_typeDriving.Reverse.Layup.Shot              NA       NA
+action_typeDriving.Slam.Dunk.Shot                  NA       NA
+action_typeDunk.Shot                               NA       NA
+action_typeFadeaway.Bank.shot                      NA       NA
+action_typeFadeaway.Jump.Shot                      NA       NA
+action_typeFinger.Roll.Layup.Shot                  NA       NA
+action_typeFinger.Roll.Shot                        NA       NA
+action_typeFloating.Jump.shot                      NA       NA
+action_typeFollow.Up.Dunk.Shot                     NA       NA
+action_typeHook.Bank.Shot                          NA       NA
+action_typeHook.Shot                                0        1
+action_typeJump.Bank.Shot                          NA       NA
+action_typeJump.Hook.Shot                          NA       NA
+action_typeJump.Shot                               NA       NA
+action_typeLayup.Shot                              NA       NA
+action_typePullup.Bank.shot                        NA       NA
+action_typePullup.Jump.shot                        NA       NA
+action_typePutback.Dunk.Shot                       NA       NA
+action_typePutback.Layup.Shot                      NA       NA
+action_typePutback.Slam.Dunk.Shot                  NA       NA
+action_typeReverse.Dunk.Shot                       NA       NA
+action_typeReverse.Layup.Shot                      NA       NA
+action_typeReverse.Slam.Dunk.Shot                  NA       NA
+action_typeRunning.Bank.shot                       NA       NA
+action_typeRunning.Dunk.Shot                       NA       NA
+action_typeRunning.Finger.Roll.Layup.Shot          NA       NA
+action_typeRunning.Finger.Roll.Shot                NA       NA
+action_typeRunning.Hook.Shot                       NA       NA
+action_typeRunning.Jump.Shot                       NA       NA
+action_typeRunning.Layup.Shot                      NA       NA
+action_typeRunning.Pull.Up.Jump.Shot               NA       NA
+action_typeRunning.Reverse.Layup.Shot              NA       NA
+action_typeRunning.Slam.Dunk.Shot                  NA       NA
+action_typeRunning.Tip.Shot                        NA       NA
+action_typeSlam.Dunk.Shot                          NA       NA
+action_typeStep.Back.Jump.shot                     NA       NA
+action_typeTip.Layup.Shot                          NA       NA
+action_typeTip.Shot                                NA       NA
+action_typeTurnaround.Bank.shot                    NA       NA
+action_typeTurnaround.Fadeaway.Bank.Jump.Shot      NA       NA
+action_typeTurnaround.Fadeaway.shot                NA       NA
+action_typeTurnaround.Finger.Roll.Shot             NA       NA
+action_typeTurnaround.Hook.Shot                    NA       NA
+action_typeTurnaround.Jump.Shot                    NA       NA
+combined_shot_typeDunk                             NA       NA
+combined_shot_typeHook.Shot                        NA       NA
+combined_shot_typeJump.Shot                        NA       NA
+combined_shot_typeLayup                            NA       NA
+combined_shot_typeTip.Shot                         NA       NA
+loc_x                                               0        1
+loc_y                                               0        1
+playoffs1                                           0        1
+shot_type3PT.Field.Goal                            NA       NA
+opponentBKN                                        NA       NA
+opponentBOS                                         0        1
+opponentCHA                                        NA       NA
+opponentCHI                                        NA       NA
+opponentCLE                                         0        1
+opponentDAL                                        NA       NA
+opponentDEN                                         0        1
+opponentDET                                         0        1
+opponentGSW                                         0        1
+opponentHOU                                         0        1
+opponentIND                                        NA       NA
+opponentLAC                                         0        1
+opponentMEM                                        NA       NA
+opponentMIA                                        NA       NA
+opponentMIL                                        NA       NA
+opponentMIN                                        NA       NA
+opponentNJN                                         0        1
+opponentNOH                                         0        1
+opponentNOP                                         0        1
+opponentNYK                                        NA       NA
+opponentOKC                                         0        1
+opponentORL                                        NA       NA
+opponentPHI                                         0        1
+opponentPHX                                        NA       NA
+opponentPOR                                         0        1
+opponentSAC                                        NA       NA
+opponentSAS                                        NA       NA
+opponentSEA                                        NA       NA
+opponentTOR                                        NA       NA
+opponentUTA                                        NA       NA
+opponentVAN                                        NA       NA
+opponentWAS                                         0        1
+time_remaining                                      0        1
+shot_distance_cut..3.13.                           NA       NA
+shot_distance_cut.13.18.                           NA       NA
+shot_distance_cut.18.24.                           NA       NA
+shot_distance_cut.24.79.                           NA       NA
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 2.8682e+01  on 20  degrees of freedom
+Residual deviance: 3.3117e-10  on  0  degrees of freedom
+AIC: 42
+
+Number of Fisher Scoring iterations: 24
