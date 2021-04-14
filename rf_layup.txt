@@ -1,0 +1,35 @@
+[1] "k= 1 type= Layup"
+                Length Class  Mode     
+call               4   -none- call     
+type               1   -none- character
+predicted       3263   factor numeric  
+err.rate         600   -none- numeric  
+confusion          6   -none- numeric  
+votes           6526   matrix numeric  
+oob.times       3263   -none- numeric  
+classes            2   -none- character
+importance        64   -none- numeric  
+importanceSD       0   -none- NULL     
+localImportance    0   -none- NULL     
+proximity          0   -none- NULL     
+ntree              1   -none- numeric  
+mtry               1   -none- numeric  
+forest            14   -none- list     
+y               3263   factor numeric  
+test               0   -none- NULL     
+inbag              0   -none- NULL     
+terms              3   terms  call     
+
+
+$dataget_total
+   type k train_accuracy test_accuracy  test_auc
+1 Layup 1      0.6715686     0.6732892 0.7085129
+2 Layup 2      0.6617647     0.6732892 0.6989444
+3 Layup 3      0.6593137     0.6732892 0.7179219
+4 Layup 4      0.7156863     0.6732892 0.7134319
+5 Layup 5      0.6625767     0.6732892 0.6972282
+
+$dataget_total_best
+   type k train_accuracy test_accuracy  test_auc
+1 Layup 1      0.6715686     0.6732892 0.7085129
+

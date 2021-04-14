@@ -1,0 +1,35 @@
+    [1] "k= 2 type= Jump Shot"
+                Length Class  Mode     
+call                4  -none- call     
+type                1  -none- character
+predicted       14191  factor numeric  
+err.rate          600  -none- numeric  
+confusion           6  -none- numeric  
+votes           28382  matrix numeric  
+oob.times       14191  -none- numeric  
+classes             2  -none- character
+importance         64  -none- numeric  
+importanceSD        0  -none- NULL     
+localImportance     0  -none- NULL     
+proximity           0  -none- NULL     
+ntree               1  -none- numeric  
+mtry                1  -none- numeric  
+forest             14  -none- list     
+y               14191  factor numeric  
+test                0  -none- NULL     
+inbag               0  -none- NULL     
+terms               3  terms  call     
+
+
+$dataget_total
+       type k train_accuracy test_accuracy  test_auc
+1 Jump Shot 1      0.6761556     0.6778285 0.6242249
+2 Jump Shot 2      0.6702368     0.6788432 0.6297527
+3 Jump Shot 3      0.6636594     0.6783359 0.6316362
+4 Jump Shot 4      0.6626268     0.6778285 0.6243948
+5 Jump Shot 5      0.6677001     0.6788432 0.6264615
+
+$dataget_total_best
+       type k train_accuracy test_accuracy  test_auc
+2 Jump Shot 2      0.6702368     0.6788432 0.6297527
+

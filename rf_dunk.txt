@@ -1,0 +1,35 @@
+[1] "k= 1 type= Dunk"
+                Length Class  Mode     
+call               4   -none- call     
+type               1   -none- character
+predicted        761   factor numeric  
+err.rate         600   -none- numeric  
+confusion          6   -none- numeric  
+votes           1522   matrix numeric  
+oob.times        761   -none- numeric  
+classes            2   -none- character
+importance        64   -none- numeric  
+importanceSD       0   -none- NULL     
+localImportance    0   -none- NULL     
+proximity          0   -none- NULL     
+ntree              1   -none- numeric  
+mtry               1   -none- numeric  
+forest            14   -none- list     
+y                761   factor numeric  
+test               0   -none- NULL     
+inbag              0   -none- NULL     
+terms              3   terms  call     
+
+
+$dataget_total
+  type k train_accuracy test_accuracy  test_auc
+1 Dunk 1      0.9315789     0.9333333 0.5663265
+2 Dunk 2      0.9315789     0.9333333 0.6042274
+3 Dunk 3      0.9315789     0.9333333 0.5262391
+4 Dunk 4      0.9267016     0.9333333 0.6545190
+5 Dunk 5      0.9157895     0.9333333 0.5080175
+
+$dataget_total_best
+  type k train_accuracy test_accuracy  test_auc
+1 Dunk 1      0.9315789     0.9333333 0.5663265
+

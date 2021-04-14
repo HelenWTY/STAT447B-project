@@ -1,0 +1,35 @@
+[1] "k= 1 type= Tip Shot"
+                Length Class  Mode     
+call              4    -none- call     
+type              1    -none- character
+predicted       109    factor numeric  
+err.rate        600    -none- numeric  
+confusion         6    -none- numeric  
+votes           218    matrix numeric  
+oob.times       109    -none- numeric  
+classes           2    -none- character
+importance       64    -none- numeric  
+importanceSD      0    -none- NULL     
+localImportance   0    -none- NULL     
+proximity         0    -none- NULL     
+ntree             1    -none- numeric  
+mtry              1    -none- numeric  
+forest           14    -none- list     
+y               109    factor numeric  
+test              0    -none- NULL     
+inbag             0    -none- NULL     
+terms             3    terms  call     
+
+
+$dataget_total
+      type k train_accuracy test_accuracy  test_auc
+1 Tip Shot 1      0.7142857           0.4 0.6574074
+2 Tip Shot 2      0.7500000           0.4 0.8148148
+3 Tip Shot 3      0.4444444           0.4 0.6851852
+4 Tip Shot 4      0.7777778           0.4 0.7500000
+5 Tip Shot 5      0.6296296           0.4 0.6481481
+
+$dataget_total_best
+      type k train_accuracy test_accuracy  test_auc
+1 Tip Shot 1      0.7142857           0.4 0.6574074
+

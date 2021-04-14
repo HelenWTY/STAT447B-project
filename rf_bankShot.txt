@@ -1,0 +1,35 @@
+[1] "k= 1 type= Bank Shot"
+                Length Class  Mode     
+call              4    -none- call     
+type              1    -none- character
+predicted        86    factor numeric  
+err.rate        600    -none- numeric  
+confusion         6    -none- numeric  
+votes           172    matrix numeric  
+oob.times        86    -none- numeric  
+classes           2    -none- character
+importance       64    -none- numeric  
+importanceSD      0    -none- NULL     
+localImportance   0    -none- NULL     
+proximity         0    -none- NULL     
+ntree             1    -none- numeric  
+mtry              1    -none- numeric  
+forest           14    -none- list     
+y                86    factor numeric  
+test              0    -none- NULL     
+inbag             0    -none- NULL     
+terms             3    terms  call     
+
+
+$dataget_total
+       type k train_accuracy test_accuracy  test_auc
+1 Bank Shot 1      0.8181818     0.9166667 0.5000000
+2 Bank Shot 2      0.8095238     0.9166667 0.6818182
+3 Bank Shot 3      0.6190476     0.9166667 0.5909091
+4 Bank Shot 4      0.8636364     0.9166667 0.4090909
+5 Bank Shot 5      0.7727273     0.9166667 0.3181818
+
+$dataget_total_best
+       type k train_accuracy test_accuracy test_auc
+1 Bank Shot 1      0.8181818     0.9166667      0.5
+

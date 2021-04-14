@@ -1,0 +1,35 @@
+[1] "k= 1 type= Hook Shot"
+                Length Class  Mode     
+call              4    -none- call     
+type              1    -none- character
+predicted        92    factor numeric  
+err.rate        600    -none- numeric  
+confusion         6    -none- numeric  
+votes           184    matrix numeric  
+oob.times        92    -none- numeric  
+classes           2    -none- character
+importance       64    -none- numeric  
+importanceSD      0    -none- NULL     
+localImportance   0    -none- NULL     
+proximity         0    -none- NULL     
+ntree             1    -none- numeric  
+mtry              1    -none- numeric  
+forest           14    -none- list     
+y                92    factor numeric  
+test              0    -none- NULL     
+inbag             0    -none- NULL     
+terms             3    terms  call     
+
+
+$dataget_total
+       type k train_accuracy test_accuracy  test_auc
+1 Hook Shot 1      0.6956522     0.5833333 0.6857143
+2 Hook Shot 2      0.5217391     0.5833333 0.7714286
+3 Hook Shot 3      0.4347826     0.5833333 0.7000000
+4 Hook Shot 4      0.6956522     0.5833333 0.8000000
+5 Hook Shot 5      0.7826087     0.5833333 0.7428571
+
+$dataget_total_best
+       type k train_accuracy test_accuracy  test_auc
+1 Hook Shot 1      0.6956522     0.5833333 0.6857143
+
