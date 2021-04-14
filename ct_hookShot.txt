@@ -1,0 +1,150 @@
+[1] "k= 1 type= Hook Shot"
+Call:
+rpart(formula = as.factor(shot_made_flag1) ~ ., data = traindata[-cvtrain[[i]], 
+    ])
+  n= 92 
+
+          CP nsplit rel error    xerror       xstd
+1 0.32608696      0 1.0000000 1.2173913 0.10176385
+2 0.09782609      1 0.6739130 0.7391304 0.10064720
+3 0.02173913      3 0.4782609 0.6956522 0.09931135
+4 0.01000000      4 0.4565217 0.6956522 0.09931135
+
+Variable importance
+   action_typeRunning.Hook.Shot                           loc_x 
+                             26                              18 
+                  shot_distance                  time_remaining 
+                             17                              10 
+                          loc_y            action_typeHook.Shot 
+                              9                               6 
+                    opponentBOS                Year_week02.2013 
+                              2                               2 
+               Year_week13.2012                Year_week52.2007 
+                              2                               2 
+action_typeTurnaround.Hook.Shot                     opponentLAC 
+                              1                               1 
+                    opponentNJN                     opponentNOH 
+                              1                               1 
+                    opponentTOR 
+                              1 
+
+Node number 1: 92 observations,    complexity param=0.326087
+  predicted class=0  expected loss=0.5  P(node) =1
+    class counts:    46    46
+   probabilities: 0.500 0.500 
+  left son=2 (71 obs) right son=3 (21 obs)
+  Primary splits:
+      action_typeRunning.Hook.Shot < 0.5   to the left,  improve=6.941650, (0 missing)
+      action_typeHook.Shot         < 0.5   to the right, improve=6.532678, (0 missing)
+      shot_distance                < 5.5   to the right, improve=2.178030, (0 missing)
+      loc_y                        < 76.5  to the right, improve=2.019512, (0 missing)
+      loc_x                        < -26.5 to the left,  improve=1.516484, (0 missing)
+  Surrogate splits:
+      action_typeHook.Shot < 0.5   to the right, agree=0.826, adj=0.238, (0 split)
+      opponentNOH          < 0.5   to the left,  agree=0.783, adj=0.048, (0 split)
+
+Node number 2: 71 observations,    complexity param=0.09782609
+  predicted class=0  expected loss=0.3943662  P(node) =0.7717391
+    class counts:    43    28
+   probabilities: 0.606 0.394 
+  left son=4 (22 obs) right son=5 (49 obs)
+  Primary splits:
+      shot_distance                < 6.5   to the right, improve=4.243879, (0 missing)
+      loc_y                        < 62    to the right, improve=2.997311, (0 missing)
+      loc_x                        < 64    to the right, improve=2.415493, (0 missing)
+      action_typeDriving.Hook.Shot < 0.5   to the left,  improve=2.174509, (0 missing)
+      time_remaining               < 467   to the right, improve=1.376905, (0 missing)
+  Surrogate splits:
+      loc_y                           < 72.5  to the right, agree=0.831, adj=0.455, (0 split)
+      loc_x                           < 39.5  to the right, agree=0.775, adj=0.273, (0 split)
+      action_typeTurnaround.Hook.Shot < 0.5   to the right, agree=0.718, adj=0.091, (0 split)
+      opponentLAC                     < 0.5   to the right, agree=0.718, adj=0.091, (0 split)
+      opponentNJN                     < 0.5   to the right, agree=0.718, adj=0.091, (0 split)
+
+Node number 3: 21 observations
+  predicted class=1  expected loss=0.1428571  P(node) =0.2282609
+    class counts:     3    18
+   probabilities: 0.143 0.857 
+
+Node number 4: 22 observations
+  predicted class=0  expected loss=0.1363636  P(node) =0.2391304
+    class counts:    19     3
+   probabilities: 0.864 0.136 
+
+Node number 5: 49 observations,    complexity param=0.09782609
+  predicted class=1  expected loss=0.4897959  P(node) =0.5326087
+    class counts:    24    25
+   probabilities: 0.490 0.510 
+  left son=10 (32 obs) right son=11 (17 obs)
+  Primary splits:
+      loc_x                        < 9     to the left,  improve=3.3721490, (0 missing)
+      action_typeDriving.Hook.Shot < 0.5   to the left,  improve=0.9051805, (0 missing)
+      time_remaining               < 430   to the right, improve=0.8231293, (0 missing)
+      action_typeHook.Shot         < 0.5   to the right, improve=0.7780842, (0 missing)
+      shot_distance                < 5.5   to the right, improve=0.5581720, (0 missing)
+  Surrogate splits:
+      time_remaining   < 81.5  to the right, agree=0.714, adj=0.176, (0 split)
+      opponentBOS      < 0.5   to the left,  agree=0.694, adj=0.118, (0 split)
+      Year_week02.2013 < 0.5   to the left,  agree=0.694, adj=0.118, (0 split)
+      Year_week13.2012 < 0.5   to the left,  agree=0.694, adj=0.118, (0 split)
+      Year_week52.2007 < 0.5   to the left,  agree=0.694, adj=0.118, (0 split)
+
+Node number 10: 32 observations,    complexity param=0.02173913
+  predicted class=0  expected loss=0.375  P(node) =0.3478261
+    class counts:    20    12
+   probabilities: 0.625 0.375 
+  left son=20 (13 obs) right son=21 (19 obs)
+  Primary splits:
+      time_remaining < 469   to the right, improve=2.1417000, (0 missing)
+      loc_y          < 35.5  to the left,  improve=1.4156860, (0 missing)
+      shot_distance  < 3.5   to the left,  improve=0.9109312, (0 missing)
+      loc_x          < -16   to the right, improve=0.3333333, (0 missing)
+  Surrogate splits:
+      loc_y         < 24    to the left,  agree=0.688, adj=0.231, (0 split)
+      loc_x         < -55   to the left,  agree=0.656, adj=0.154, (0 split)
+      opponentTOR   < 0.5   to the right, agree=0.656, adj=0.154, (0 split)
+      shot_distance < 0.5   to the left,  agree=0.625, adj=0.077, (0 split)
+
+Node number 11: 17 observations
+  predicted class=1  expected loss=0.2352941  P(node) =0.1847826
+    class counts:     4    13
+   probabilities: 0.235 0.765 
+
+Node number 20: 13 observations
+  predicted class=0  expected loss=0.1538462  P(node) =0.1413043
+    class counts:    11     2
+   probabilities: 0.846 0.154 
+
+Node number 21: 19 observations
+  predicted class=1  expected loss=0.4736842  P(node) =0.2065217
+    class counts:     9    10
+   probabilities: 0.474 0.526 
+
+n= 92 
+
+node), split, n, loss, yval, (yprob)
+      * denotes terminal node
+
+ 1) root 92 46 0 (0.5000000 0.5000000)  
+   2) action_typeRunning.Hook.Shot< 0.5 71 28 0 (0.6056338 0.3943662)  
+     4) shot_distance>=6.5 22  3 0 (0.8636364 0.1363636) *
+     5) shot_distance< 6.5 49 24 1 (0.4897959 0.5102041)  
+      10) loc_x< 9 32 12 0 (0.6250000 0.3750000)  
+        20) time_remaining>=469 13  2 0 (0.8461538 0.1538462) *
+        21) time_remaining< 469 19  9 1 (0.4736842 0.5263158) *
+      11) loc_x>=9 17  4 1 (0.2352941 0.7647059) *
+   3) action_typeRunning.Hook.Shot>=0.5 21  3 1 (0.1428571 0.8571429) *
+
+
+$dataget_total
+       type k train_accuracy test_accuracy  test_auc
+1 Hook Shot 1      0.5217391     0.8333333 0.8571429
+2 Hook Shot 2      0.5217391     0.5833333 0.5857143
+3 Hook Shot 3      0.6521739     0.5833333 0.5857143
+4 Hook Shot 4      0.5217391     0.6666667 0.8285714
+5 Hook Shot 5      0.5217391     0.8333333 0.9714286
+
+$dataget_total_best
+       type k train_accuracy test_accuracy  test_auc
+1 Hook Shot 1      0.5217391     0.8333333 0.8571429
+

@@ -1,0 +1,68 @@
+[1] "k= 1 type= Jump Shot"
+Call:
+rpart(formula = as.factor(shot_made_flag1) ~ ., data = traindata[-cvtrain[[i]], 
+    ])
+  n= 14191 
+
+         CP nsplit rel error    xerror       xstd
+1 0.1449458      0 1.0000000 1.0000000 0.01048991
+2 0.0100000      1 0.8550542 0.8550542 0.01014012
+
+Variable importance
+               action_typeJump.Shot     action_typeTurnaround.Jump.Shot 
+                                 54                                  13 
+      action_typeFadeaway.Jump.Shot        action_typeRunning.Jump.Shot 
+                                 12                                  11 
+        action_typePullup.Jump.shot action_typeTurnaround.Fadeaway.shot 
+                                  5                                   5 
+
+Node number 1: 14191 observations,    complexity param=0.1449458
+  predicted class=0  expected loss=0.3903883  P(node) =1
+    class counts:  8651  5540
+   probabilities: 0.610 0.390 
+  left son=2 (11460 obs) right son=3 (2731 obs)
+  Primary splits:
+      action_typeJump.Shot            < 0.5 to the right, improve=445.43710, (0 missing)
+      action_typeRunning.Jump.Shot    < 0.5 to the left,  improve=148.08260, (0 missing)
+      action_typePullup.Jump.shot     < 0.5 to the left,  improve= 62.89414, (0 missing)
+      action_typeJump.Bank.Shot       < 0.5 to the left,  improve= 61.65777, (0 missing)
+      action_typeTurnaround.Jump.Shot < 0.5 to the left,  improve= 50.83580, (0 missing)
+  Surrogate splits:
+      action_typeTurnaround.Jump.Shot     < 0.5 to the left,  agree=0.853, adj=0.234, (0 split)
+      action_typeFadeaway.Jump.Shot       < 0.5 to the left,  agree=0.851, adj=0.224, (0 split)
+      action_typeRunning.Jump.Shot        < 0.5 to the left,  agree=0.846, adj=0.201, (0 split)
+      action_typePullup.Jump.shot         < 0.5 to the left,  agree=0.827, adj=0.101, (0 split)
+      action_typeTurnaround.Fadeaway.shot < 0.5 to the left,  agree=0.826, adj=0.094, (0 split)
+
+Node number 2: 11460 observations
+  predicted class=0  expected loss=0.3292321  P(node) =0.8075541
+    class counts:  7687  3773
+   probabilities: 0.671 0.329 
+
+Node number 3: 2731 observations
+  predicted class=1  expected loss=0.3529843  P(node) =0.1924459
+    class counts:   964  1767
+   probabilities: 0.353 0.647 
+
+n= 14191 
+
+node), split, n, loss, yval, (yprob)
+      * denotes terminal node
+
+1) root 14191 5540 0 (0.6096117 0.3903883)  
+  2) action_typeJump.Shot>=0.5 11460 3773 0 (0.6707679 0.3292321) *
+  3) action_typeJump.Shot< 0.5 2731  964 1 (0.3529843 0.6470157) *
+
+
+$dataget_total
+       type k train_accuracy test_accuracy  test_auc
+1 Jump Shot 1      0.6761556     0.6783359 0.6238825
+2 Jump Shot 2      0.6702368     0.6783359 0.6238825
+3 Jump Shot 3      0.6633775     0.6783359 0.6238825
+4 Jump Shot 4      0.6634724     0.6783359 0.6238825
+5 Jump Shot 5      0.6677001     0.6783359 0.6238825
+
+$dataget_total_best
+       type k train_accuracy test_accuracy  test_auc
+1 Jump Shot 1      0.6761556     0.6783359 0.6238825
+

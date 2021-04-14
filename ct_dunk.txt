@@ -1,0 +1,34 @@
+[1] "k= 1 type= Dunk"
+Call:
+rpart(formula = as.factor(shot_made_flag1) ~ ., data = traindata[-cvtrain[[i]], 
+    ])
+  n= 761 
+
+           CP nsplit rel error xerror xstd
+1 0.008928571      0         1      0    0
+
+Node number 1: 761 observations
+  predicted class=1  expected loss=0.07358739  P(node) =1
+    class counts:    56   705
+   probabilities: 0.074 0.926 
+
+n= 761 
+
+node), split, n, loss, yval, (yprob)
+      * denotes terminal node
+
+1) root 761 56 1 (0.07358739 0.92641261) *
+
+
+$dataget_total
+  type k train_accuracy test_accuracy test_auc
+1 Dunk 1      0.9315789     0.9333333      0.5
+2 Dunk 2      0.9315789     0.9333333      0.5
+3 Dunk 3      0.9315789     0.9333333      0.5
+4 Dunk 4      0.9267016     0.9333333      0.5
+5 Dunk 5      0.9157895     0.9333333      0.5
+
+$dataget_total_best
+  type k train_accuracy test_accuracy test_auc
+1 Dunk 1      0.9315789     0.9333333      0.5
+

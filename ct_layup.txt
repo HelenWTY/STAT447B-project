@@ -1,0 +1,68 @@
+[1] "k= 1 type= Layup"
+Call:
+rpart(formula = as.factor(shot_made_flag1) ~ ., data = traindata[-cvtrain[[i]], 
+    ])
+  n= 3263 
+
+         CP nsplit rel error    xerror       xstd
+1 0.2437634      0 1.0000000 1.0000000 0.02015668
+2 0.0100000      1 0.7562366 0.7562366 0.01907217
+
+Variable importance
+        action_typeLayup.Shot action_typeDriving.Layup.Shot 
+                           59                            38 
+action_typeReverse.Layup.Shot                   opponentMIL 
+                            1                             1 
+                  opponentDET                   opponentMEM 
+                            1                             1 
+
+Node number 1: 3263 observations,    complexity param=0.2437634
+  predicted class=1  expected loss=0.4299724  P(node) =1
+    class counts:  1403  1860
+   probabilities: 0.430 0.570 
+  left son=2 (1524 obs) right son=3 (1739 obs)
+  Primary splits:
+      action_typeLayup.Shot                     < 0.5  to the right, improve=189.925500, (0 missing)
+      action_typeDriving.Layup.Shot             < 0.5  to the left,  improve=112.133100, (0 missing)
+      action_typeDriving.Finger.Roll.Layup.Shot < 0.5  to the left,  improve=  9.894376, (0 missing)
+      action_typeDriving.Finger.Roll.Shot       < 0.5  to the left,  improve=  7.834282, (0 missing)
+      loc_y                                     < 12.5 to the right, improve=  5.506439, (0 missing)
+  Surrogate splits:
+      action_typeDriving.Layup.Shot < 0.5  to the left,  agree=0.831, adj=0.638, (0 split)
+      action_typeReverse.Layup.Shot < 0.5  to the left,  agree=0.540, adj=0.015, (0 split)
+      opponentMIL                   < 0.5  to the right, agree=0.539, adj=0.014, (0 split)
+      opponentDET                   < 0.5  to the right, agree=0.539, adj=0.013, (0 split)
+      opponentMEM                   < 0.5  to the right, agree=0.538, adj=0.012, (0 split)
+
+Node number 2: 1524 observations
+  predicted class=0  expected loss=0.3877953  P(node) =0.4670549
+    class counts:   933   591
+   probabilities: 0.612 0.388 
+
+Node number 3: 1739 observations
+  predicted class=1  expected loss=0.2702703  P(node) =0.5329451
+    class counts:   470  1269
+   probabilities: 0.270 0.730 
+
+n= 3263 
+
+node), split, n, loss, yval, (yprob)
+      * denotes terminal node
+
+1) root 3263 1403 1 (0.4299724 0.5700276)  
+  2) action_typeLayup.Shot>=0.5 1524  591 0 (0.6122047 0.3877953) *
+  3) action_typeLayup.Shot< 0.5 1739  470 1 (0.2702703 0.7297297) *
+
+
+$dataget_total
+   type k train_accuracy test_accuracy test_auc
+1 Layup 1      0.6715686     0.6732892 0.677233
+2 Layup 2      0.6617647     0.6732892 0.677233
+3 Layup 3      0.6593137     0.6732892 0.677233
+4 Layup 4      0.7156863     0.6732892 0.677233
+5 Layup 5      0.6625767     0.6732892 0.677233
+
+$dataget_total_best
+   type k train_accuracy test_accuracy test_auc
+1 Layup 1      0.6715686     0.6732892 0.677233
+

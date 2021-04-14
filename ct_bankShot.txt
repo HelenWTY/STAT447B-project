@@ -1,0 +1,34 @@
+[1] "k= 1 type= Bank Shot"
+Call:
+rpart(formula = as.factor(shot_made_flag1) ~ ., data = traindata[-cvtrain[[i]], 
+    ])
+  n= 86 
+
+  CP nsplit rel error xerror xstd
+1  0      0         1      0    0
+
+Node number 1: 86 observations
+  predicted class=1  expected loss=0.2325581  P(node) =1
+    class counts:    20    66
+   probabilities: 0.233 0.767 
+
+n= 86 
+
+node), split, n, loss, yval, (yprob)
+      * denotes terminal node
+
+1) root 86 20 1 (0.2325581 0.7674419) *
+
+
+$dataget_total
+       type k train_accuracy test_accuracy  test_auc
+1 Bank Shot 1      0.8181818     0.9166667 0.5000000
+2 Bank Shot 2      0.8571429     0.9166667 0.8181818
+3 Bank Shot 3      0.6190476     0.9166667 0.7727273
+4 Bank Shot 4      0.9090909     0.7500000 0.4090909
+5 Bank Shot 5      0.5909091     0.8333333 0.8636364
+
+$dataget_total_best
+       type k train_accuracy test_accuracy test_auc
+1 Bank Shot 1      0.8181818     0.9166667      0.5
+
