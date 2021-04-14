@@ -1,0 +1,135 @@
+[1] "k= 2 type= Layup"
+
+Call:
+glm(formula = as.factor(shot_made_flag1) ~ ., family = "binomial", 
+    data = traindata[-cvtrain[[i]], ])
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.1751  -0.9884   0.6627   0.8918   1.7727  
+
+Coefficients: (47 not defined because of singularities)
+                                                Estimate Std. Error z value Pr(>|z|)  
+(Intercept)                                   -1.170e+01  1.970e+02  -0.059   0.9526  
+action_typeAlley.Oop.Layup.shot                1.261e+01  1.970e+02   0.064   0.9489  
+action_typeCutting.Finger.Roll.Layup.Shot             NA         NA      NA       NA  
+action_typeCutting.Layup.Shot                  1.221e+01  1.970e+02   0.062   0.9506  
+action_typeDriving.Bank.shot                          NA         NA      NA       NA  
+action_typeDriving.Dunk.Shot                          NA         NA      NA       NA  
+action_typeDriving.Finger.Roll.Layup.Shot      1.378e+01  1.970e+02   0.070   0.9442  
+action_typeDriving.Finger.Roll.Shot            1.391e+01  1.970e+02   0.071   0.9437  
+action_typeDriving.Floating.Bank.Jump.Shot            NA         NA      NA       NA  
+action_typeDriving.Floating.Jump.Shot                 NA         NA      NA       NA  
+action_typeDriving.Hook.Shot                          NA         NA      NA       NA  
+action_typeDriving.Jump.shot                          NA         NA      NA       NA  
+action_typeDriving.Layup.Shot                  1.289e+01  1.970e+02   0.065   0.9478  
+action_typeDriving.Reverse.Layup.Shot          1.293e+01  1.970e+02   0.066   0.9477  
+action_typeDriving.Slam.Dunk.Shot                     NA         NA      NA       NA  
+action_typeDunk.Shot                                  NA         NA      NA       NA  
+action_typeFadeaway.Bank.shot                         NA         NA      NA       NA  
+action_typeFadeaway.Jump.Shot                         NA         NA      NA       NA  
+action_typeFinger.Roll.Layup.Shot              1.360e+01  1.970e+02   0.069   0.9449  
+action_typeFinger.Roll.Shot                    1.227e+01  1.970e+02   0.062   0.9503  
+action_typeFloating.Jump.shot                         NA         NA      NA       NA  
+action_typeFollow.Up.Dunk.Shot                        NA         NA      NA       NA  
+action_typeHook.Bank.Shot                             NA         NA      NA       NA  
+action_typeHook.Shot                                  NA         NA      NA       NA  
+action_typeJump.Bank.Shot                             NA         NA      NA       NA  
+action_typeJump.Hook.Shot                             NA         NA      NA       NA  
+action_typeJump.Shot                                  NA         NA      NA       NA  
+action_typeLayup.Shot                          1.130e+01  1.970e+02   0.057   0.9543  
+action_typePullup.Bank.shot                           NA         NA      NA       NA  
+action_typePullup.Jump.shot                           NA         NA      NA       NA  
+action_typePutback.Dunk.Shot                          NA         NA      NA       NA  
+action_typePutback.Layup.Shot                  1.243e+01  1.970e+02   0.063   0.9497  
+action_typePutback.Slam.Dunk.Shot                     NA         NA      NA       NA  
+action_typeReverse.Dunk.Shot                          NA         NA      NA       NA  
+action_typeReverse.Layup.Shot                  1.259e+01  1.970e+02   0.064   0.9490  
+action_typeReverse.Slam.Dunk.Shot                     NA         NA      NA       NA  
+action_typeRunning.Bank.shot                          NA         NA      NA       NA  
+action_typeRunning.Dunk.Shot                          NA         NA      NA       NA  
+action_typeRunning.Finger.Roll.Layup.Shot      1.270e+01  1.970e+02   0.064   0.9486  
+action_typeRunning.Finger.Roll.Shot            1.108e+01  1.970e+02   0.056   0.9552  
+action_typeRunning.Hook.Shot                          NA         NA      NA       NA  
+action_typeRunning.Jump.Shot                          NA         NA      NA       NA  
+action_typeRunning.Layup.Shot                  1.240e+01  1.970e+02   0.063   0.9498  
+action_typeRunning.Pull.Up.Jump.Shot                  NA         NA      NA       NA  
+action_typeRunning.Reverse.Layup.Shot          1.296e+01  1.970e+02   0.066   0.9475  
+action_typeRunning.Slam.Dunk.Shot                     NA         NA      NA       NA  
+action_typeRunning.Tip.Shot                           NA         NA      NA       NA  
+action_typeSlam.Dunk.Shot                             NA         NA      NA       NA  
+action_typeStep.Back.Jump.shot                        NA         NA      NA       NA  
+action_typeTip.Layup.Shot                             NA         NA      NA       NA  
+action_typeTip.Shot                                   NA         NA      NA       NA  
+action_typeTurnaround.Bank.shot                       NA         NA      NA       NA  
+action_typeTurnaround.Fadeaway.Bank.Jump.Shot         NA         NA      NA       NA  
+action_typeTurnaround.Fadeaway.shot                   NA         NA      NA       NA  
+action_typeTurnaround.Finger.Roll.Shot                NA         NA      NA       NA  
+action_typeTurnaround.Hook.Shot                       NA         NA      NA       NA  
+action_typeTurnaround.Jump.Shot                       NA         NA      NA       NA  
+combined_shot_typeDunk                                NA         NA      NA       NA  
+combined_shot_typeHook.Shot                           NA         NA      NA       NA  
+combined_shot_typeJump.Shot                           NA         NA      NA       NA  
+combined_shot_typeLayup                               NA         NA      NA       NA  
+combined_shot_typeTip.Shot                            NA         NA      NA       NA  
+loc_x                                          3.691e-03  4.289e-03   0.860   0.3896  
+loc_y                                         -8.522e-03  5.013e-03  -1.700   0.0891 .
+playoffs1                                     -2.827e-01  1.175e-01  -2.407   0.0161 *
+shot_type3PT.Field.Goal                               NA         NA      NA       NA  
+opponentBKN                                   -1.135e+00  1.087e+00  -1.044   0.2966  
+opponentBOS                                   -7.009e-03  3.799e-01  -0.018   0.9853  
+opponentCHA                                    3.096e-01  4.465e-01   0.693   0.4881  
+opponentCHI                                    2.048e-01  4.101e-01   0.499   0.6175  
+opponentCLE                                   -2.415e-01  3.926e-01  -0.615   0.5384  
+opponentDAL                                   -5.171e-01  3.482e-01  -1.485   0.1375  
+opponentDEN                                   -3.398e-01  3.390e-01  -1.002   0.3161  
+opponentDET                                   -5.147e-01  3.854e-01  -1.336   0.1817  
+opponentGSW                                   -6.519e-02  3.445e-01  -0.189   0.8499  
+opponentHOU                                   -5.923e-01  3.400e-01  -1.742   0.0815 .
+opponentIND                                   -1.337e-01  3.963e-01  -0.337   0.7358  
+opponentLAC                                   -3.504e-01  3.376e-01  -1.038   0.2993  
+opponentMEM                                   -1.867e-01  3.473e-01  -0.538   0.5909  
+opponentMIA                                   -3.729e-01  4.049e-01  -0.921   0.3571  
+opponentMIL                                    4.121e-01  3.870e-01   1.065   0.2869  
+opponentMIN                                   -1.438e-01  3.446e-01  -0.417   0.6765  
+opponentNJN                                   -6.899e-01  3.887e-01  -1.775   0.0759 .
+opponentNOH                                    1.063e-01  4.219e-01   0.252   0.8011  
+opponentNOP                                   -6.130e-01  5.082e-01  -1.206   0.2277  
+opponentNYK                                   -2.169e-01  3.911e-01  -0.555   0.5792  
+opponentOKC                                    3.516e-01  4.135e-01   0.850   0.3951  
+opponentORL                                   -6.945e-01  4.009e-01  -1.732   0.0832 .
+opponentPHI                                   -8.975e-02  3.905e-01  -0.230   0.8182  
+opponentPHX                                    1.998e-01  3.384e-01   0.590   0.5549  
+opponentPOR                                   -4.410e-01  3.368e-01  -1.309   0.1904  
+opponentSAC                                   -2.500e-01  3.375e-01  -0.741   0.4589  
+opponentSAS                                   -1.529e-01  3.317e-01  -0.461   0.6448  
+opponentSEA                                   -6.810e-01  3.948e-01  -1.725   0.0846 .
+opponentTOR                                   -3.184e-01  3.886e-01  -0.819   0.4125  
+opponentUTA                                   -7.879e-02  3.414e-01  -0.231   0.8175  
+opponentVAN                                   -1.150e-01  4.607e-01  -0.250   0.8029  
+opponentWAS                                   -4.638e-01  4.190e-01  -1.107   0.2683  
+time_remaining                                 4.439e-04  1.891e-04   2.347   0.0189 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4477.5  on 3262  degrees of freedom
+Residual deviance: 3976.4  on 3211  degrees of freedom
+AIC: 4080.4
+
+Number of Fisher Scoring iterations: 10
+
+
+$dataget_total
+   type k train_accuracy test_accuracy  test_auc
+1 Layup 1      0.6629902     0.6622517 0.7066770
+2 Layup 2      0.6556373     0.6688742 0.7045219
+3 Layup 3      0.6568627     0.6644592 0.7125239
+4 Layup 4      0.6850490     0.6556291 0.7037037
+5 Layup 5      0.6503067     0.6578366 0.7071360
+
+$dataget_total_best
+   type k train_accuracy test_accuracy  test_auc
+2 Layup 2      0.6556373     0.6688742 0.7045219
+
